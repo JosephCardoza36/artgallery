@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="the best art gallery in Alaska">
+        <meta name="keywords" content="gallery, pictures, mountains, sunsets">
+        <meta name="author" content="Joseph Cardoza">
+        <title>Mountain Art Gallery</title>
+        <link rel="shortcut icon" type="image/png" href="images/favicon.png">
+        <link href="css/artgallery.css" rel="stylesheet">
+
+        <!-- Custom CSS -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <!-- Navigation -->
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Start Bootstrap</a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <a href="#">About</a>
+                        </li>
+                        <li>
+                            <a href="#">Services</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container -->
+        </nav>
+
+        <!-- Page Content -->
+        <div class="container">
+
+            <!-- Jumbotron Header -->
+            <header class="jumbotron hero-spacer">
+                <h1>A Warm Welcome!</h1>
+                <p>We display and sell only the finest artwork. Our artists include
+                    photographers and landscape painters. Our art gallery is divided into
+                    four types of imagery: sailboats, landscapes, tropical and mountains.
+                </p>
+                <p><a class="btn btn-primary btn-large">Call to action!</a>
+                </p>
+            </header>
+
+            <hr>
+
+            <!-- Page Features -->
+            <div class="row text-center">
+                <div class="col-md-6 col-sm-6 hero-feature">
+                    <div class="thumbnail">
+                        <p id="addimage"></p>
+                        <div class="caption">
+                            <h3>You can buy this image today!</h3>
+                            <div>
+                                <p id="addtitle"></p>
+                                <p id="addtext"></p>
+                                <p>Today's Price: $<span id="addprice"></span></p>
+                                <form method="post" action="">
+                                    <p><input type="text" placeholder="Name on Card"></p>
+                                    <p><input type="text" placeholder="Credit Card Number"></p>
+                                    <p><input type="text" placeholder="Expiry"></p>
+                                    <p><input type="text" placeholder="CVN"></p>
+                                    <a href="receipt.html" class="btn btn-primary">Buy Now!</a>
+
+                                </form>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <hr>
+
+                <!-- Footer -->
+                <footer>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <p>Copyright &copy; Mountain Art Gallery 2022</p>
+                        </div>
+                    </div>
+                </footer>
+
+
+
+                <!-- jQuery -->
+                <script src="js/jquery.js"></script>
+
+                <!-- Bootstrap Core JavaScript -->
+                <script src="js/bootstrap.min.js"></script>
+                <script src="js/readcookies.js"></script>
+                <!-- <script src="js/makecookies.js"></script> -->
+            </div>
+    </body>
+
+</html>

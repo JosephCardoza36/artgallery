@@ -1,0 +1,22 @@
+.jumbotron {
+    background: url(../images/jumbotron.png) no-repeat center top;
+}
+
+h1,
+h1+p {
+    text-shadow: 1px 1px 0 #fff;
+}
+
+hr {
+    width: 80%;
+    text-align: center;
+    border-color: #bbb;
+}
+
+footer {
+    text-align: center;
+}
+
+input {
+    width: 200px;
+}
